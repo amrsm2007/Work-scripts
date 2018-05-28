@@ -1,5 +1,6 @@
 from jnpr.junos import Device
 import time
+from ncclient import manager
 from openpyxl import load_workbook
 
 switch_data="D:\\amr_ali\Switches Database - 2017 (UPDATED).xlsx"
